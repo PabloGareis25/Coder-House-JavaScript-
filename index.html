@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+    <head>
+        <!--Librerias-->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>  
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <!--Referencia a la Hoja de Estilos-->
+        <link rel="stylesheet" href="css/style.css">
+        <!--Referencia a las distintas Hojas de Acciones-->
+        <script src="js/classes/carrito.class.js"></script>
+        <script src="js/classes/categoria.class.js"></script>
+        <script src="js/data/products.data.js"></script>
+        <script src="js/main.js" defer ></script>
+        <script src="js/main2.js" defer ></script>
+        <meta charset="UTF-8">
+        <!--Iconos-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    </head>
+    <body>
+        <div class="contenedor">
+            <nav>
+                <a class="logotipo" href="#">Sitio Oficial de Productos de Harry Potter</a>
+                <div class="enlaces">
+                    <a href="index.html">Inicio</a>
+                    <a href="Casas.html">Contacto</a>                    
+                </div>
+            </nav>
+            <p id="informacion" ></p>
+        <div id="mainContainer">
+            <div id="content">
+                <div id="store">
+                    <div id="categoryMenu">
+                        <button id="ver">Personajes</button>
+                    </div>
+                    <h2 id="categoryName"></h2>
+                    <div id="productList">                 
+                    </div>
+                </div>
+
+                <div id="cartList">
+                    <h3>Carrito<i class="fa-solid fa-cart-shopping"></i></h3></i>
+                    <div id="productsInCart"></div>
+                    <div id="total">
+                    </div>
+                    <div>
+
+                        <fieldset>
+                            <legend>Datos para envio del Producto: </legend>
+                            <label>Nombre Completo:</label><br>
+                            <input type="text" name="nombre" id="regnombre" /><br>
+                            <label>Email:</label><br>
+                            <input type="email" name="email" id="regemail" /><br>
+                            <label>Teléfono:</label><br>
+                            <input type="tel" name="telefono" id="regtel" /><br>
+                            <label>Dirección:</label><br>
+                            <input type="text" name="direccion" id="regdir" /><br>
+                            <label>Codigo Postal:</label><br>
+                            <input type="number" name="cp" id="regcp" /><br>
+                            <button id="registrar-compra">Finalizar Compra</button>
+                        
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+    </body>
+</html>

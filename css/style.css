@@ -1,0 +1,260 @@
+#mainContainer
+{
+    width:100%;
+    border:5px solid #7F0909;
+    margin:1%;
+    min-height: 85vh;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#header{
+    background-color: black;
+    color:white;
+    min-height: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding:1%;
+
+}
+.modeBtn{
+    padding:10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#content{
+    background-color: white;
+    color:black;
+    min-height: 80vh;
+    max-height: 80vh;
+    overflow: scroll;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    padding: 2%;
+   
+}
+
+.hidden{
+    display:none;
+}
+#store{
+    width:80%;
+    overflow-y: scroll;
+    border-right: 1px solid grey;
+}
+#categoryMenu{
+    border-bottom: 1px solid grey;
+    padding-bottom:2%;
+}
+.catBtn{
+    border-radius: 20px;
+    padding:1%;
+    border-color: #7F0909;
+    cursor: pointer;
+    margin-left:2%;
+    text-transform: capitalize;
+    
+}
+
+
+
+
+#productList{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cartList{
+    width:20%;
+}
+
+.product{
+    width:180px;
+    border:1px solid grey;
+    border-radius: 20px;
+    padding:2%;
+    margin-left: 2%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.product img{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.productInfo, .prod{
+    margin-top:10px;
+
+}
+
+.addToList{
+    margin-top:10px;
+    border-radius: 20px;
+    padding:2%;
+    width:100%;
+    background-color:#7F0909;
+    color: white;
+    cursor:pointer;
+}
+#cartList {
+    width:20%;
+}
+.productInList, #cartList {
+    padding:2%;
+}
+.productInList{
+    display:flex;
+    
+    margin-top:2%;
+    border-bottom:1px solid grey;
+}
+.productInList .productImg{
+    
+    width: 30%;
+    text-align: center;
+}
+.productImg img{
+    width:50%;
+}
+.productInList .productName{
+    width:60%;
+    margin-left: 3%;
+}
+
+.productInList .productPrice{
+    width:30%;
+    margin-left: 3%;
+    text-align: right;
+}
+
+#total{
+    margin-top:5%;
+    border:1px solid #7F0909;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right:auto;
+    font-weight: bold;
+    padding: 2%;
+}
+
+
+/*Menu*/
+
+nav {
+    background: #FEFEFE;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 18px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 15px 20px;
+    border-radius: 5px;
+    -webkit-transition: .3s ease all;
+    transition: .3s ease all;
+    background-color: #7F0909 ;
+    -webkit-box-shadow: 10px 10px 20px rgba(170, 170, 170, 0.16);
+            box-shadow: 10px 10px 20px rgba(170, 170, 170, 0.16);
+  }
+  
+  body.dark nav {
+    background: white;
+    -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+  }
+  
+  body.dark nav a {
+    color: #ffc500;
+  }
+  
+  body.dark nav a:hover {
+    color: #ffc500;
+  }
+  
+  nav .logotipo {
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+  }
+  
+  nav .enlaces {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  nav .enlaces a {
+    margin-right: 40px;
+  }
+  
+  nav .enlaces a:hover {
+    color: #ffc500;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+
+
+/*CONTACTOS*/
+.Contactos-contener
+{
+    margin: 40px;
+    margin-top: -20px;
+
+}
+
+.contactos__Titulo
+{
+    margin: 40px;
+    color:#7F0909;
+    margin-top:50px;
+    
+}
+
+
+
+.imagen_banner2{
+    margin: 900px;
+    margin-top:-700px;
+}
+
+.mapa{
+    margin: 230px;
+    margin-top:-450px;
+}
+
+
+button {
+    border-color: #7F0909;
+    border-radius: 1rem;
+    color: black;
+    margin: 0.5rem;
+}
+
+#ver{
+    font-size: 16px;
+    border-color: #7F0909;
+    border-radius: 1rem;
+    color: black;
+    margin:0rem;
+    height:35px;
+}
+
